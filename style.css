@@ -67,7 +67,8 @@
 }
 
 /* Banner Style */
-.banner {
+.banner,
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -94,6 +95,18 @@
 
 .banner-img img {
     width: 100%;
+}
+
+/* Our Features style */
+.our-features {
+    gap: 30px;
+    align-items: center;
+
+}
+
+.our-features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @media screen and (max-width:576px) {
