@@ -91,6 +91,7 @@ main {
 
 .banner-img {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .banner-img img {
@@ -101,11 +102,14 @@ main {
 .our-features {
     gap: 30px;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 
 }
 
 .our-features-img {
     display: grid;
+    gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -114,5 +118,13 @@ main {
     .navbar,
     .nav-links {
         flex-direction: column;
+    }
+
+    .our-features {
+        flex-direction: column;
+    }
+
+    .our-features-img {
+        grid-template-columns: 1fr;
     }
 }
